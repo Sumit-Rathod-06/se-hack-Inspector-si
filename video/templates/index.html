@@ -7,8 +7,19 @@
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
+    <div style="display: flex; align-items: center; justify-content: space-between; background-color: #2b3a55; padding: 15px 30px; color: white;">
+        <div style="font-size: 24px; font-weight: bold;">
+          CCTV Monitor
+        </div>
+        <div style="display: flex; gap: 20px;">
+          <a href="/" style="color: white; text-decoration: none; font-size: 16px;">Home</a>
+          <a href="/live-feed" style="color: white; text-decoration: none; font-size: 16px;">Live Feed</a>
+          <a href="/recordings" style="color: white; text-decoration: none; font-size: 16px;">Recordings</a>
+          <a href="/settings" style="color: white; text-decoration: none; font-size: 16px;">Settings</a>
+        </div>
+    </div>
     <div class="container">
-        <h1>Multi-Client Video Streaming</h1>
+        <h1 style="color: white;">Multi-Client Video Streaming</h1>
         <div id="video-grid"></div>
     </div>
     <script src="/static/js/script.js"></script>
